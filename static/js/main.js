@@ -19,3 +19,18 @@ function postSend(number)
   });
 
 }
+
+function postResult()
+{
+  phone = $('#phone').val();
+  name = $('#name').val()
+  $.ajax({
+    type: 'POST',
+    url: '../hundler.php',
+    data: 'result_f=1&name=' + name + '&phone=' = phone,
+    success: function(data){
+      alert(data);
+    }
+  });
+
+}
