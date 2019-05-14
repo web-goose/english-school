@@ -72,7 +72,25 @@ main {
     background-color: #10121191;
     height: auto;
     padding: 2rem;
+    border-radius: 0;
+}
+@media screen and (min-device-width: 520px) {
+    .block {
+        border-radius: 1rem;
+    }
+}
+button {
+    background-color: #f7cb36;
     border-radius: 1rem;
+    padding: 0.7rem 1.2rem;
+    border: none;
+    transition: 0.1s linear;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #212121;
+}
+button:hover {
+    background-color: #d3ac2d;
 }
 @keyframes blick {
     0% {
