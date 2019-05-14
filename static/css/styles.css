@@ -126,3 +126,27 @@ button:hover {
       animation-timing-function: ease-in-out;
       animation-iteration-count: infinite;
   }
+.form-check {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+}
+label {
+    font-size: 25px;
+    margin: 0 .5rem;
+}
+.form-check-input {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-top: 0.5rem;
+}
+input[type="radio"]:checked {
+    color: #d3ac2d;
+}
+.progress {
+    margin-bottom: 0.4rem; 
+    height: 2rem;
+}
+.progress p {
+    color: #000;
+    font-weight: bold;
+}
