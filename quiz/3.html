@@ -16,7 +16,7 @@
       <div class="row">
         <div class="col-12 block d-flex flex-wrap">
           <div class="col-12 col-lg-3 text-center">
-            <h1 id="question">Вопрос 3</h1>
+            <h1>Вопрос 3</h1>
           </div>
           <div class="logo col-12 col-lg-9 my-auto">
             <div class="progress position-relative">
@@ -26,9 +26,9 @@
           </div>
           <hr>
           <div class="col-12 my-2 text-center">
-            <h1>Какой у вас уровень языка?</h1>
+            <h1 id="question">Какой у вас уровень языка?</h1>
           </div>
-          <div class="col-12 text-left text-md-center">
+          <div class="col-12 text-center">
             <div class="form-check">
               <input class="form-check-input" type="radio" name="ans" id="ans1" value="Начальный: умею читать, но плохо говорю и понимаю" checked>
               <label class="form-check-label" for="ans1">
@@ -36,7 +36,7 @@
               </label>
             </div>
           </div>
-          <div class="col-12 text-left text-md-center">
+          <div class="col-12 text-center">
             <div class="form-check">
               <input class="form-check-input" type="radio" name="ans" id="ans2" value="Средний: умею читать, словарный запас наибольший, не все понимаю">
               <label class="form-check-label" for="ans2">
@@ -44,7 +44,7 @@
               </label>
             </div>
           </div>
-          <div class="col-12 text-left text-md-center">
+          <div class="col-12 text-center">
             <div class="form-check">
               <input class="form-check-input" type="radio" name="ans" id="ans3" value="Выше среднего: достаточный словарный запас, чтобы общаться на разные темы, но не владею
               специальной лексикой, понимаю собеседника хорошо">
@@ -54,7 +54,7 @@
               </label>
             </div>
           </div>
-          <div class="col-12 text-left text-md-center">
+          <div class="col-12 text-center">
             <div class="form-check">
               <input class="form-check-input" type="radio" name="ans" id="ans4" value="Продвинутый: быстро разговариваю на любые темы и даже на узкоспециальные, понимаю
               собеседника сходу и слышу его ошибки">
@@ -64,9 +64,9 @@
               </label>
             </div>
           </div>
-          <div class="col-12 my-3 justify-content-center d-flex flex-wrap-reverse">
+          <div class="col-12 my-3 text-center">
             <a href="2.html"><button class="">Назад</button></a>
-            <a href="4.html"><button class="">Вперед</button></a>
+            <a href="4.html"><button class="" onclick="postSend(3)">Вперед</button></a>
           </div>
         </div>
       </div>
@@ -77,6 +77,7 @@
   <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="../static/js/main.js"></script>
 </body>
 
 </html>

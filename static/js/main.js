@@ -15,7 +15,9 @@ function postSend(number)
   $.ajax({
     type: 'POST',
     url: '../hundler.php',
-    data: 'quest_f=1&page='+ number +'&question='+ question + '&answer=' + answer
+    data: 'quest_f=1&page='+ number +'&question='+ question + '&answer=' + answer,
+    success: function(data){
+    }
   });
 
 }
@@ -23,11 +25,11 @@ function postSend(number)
 function postResult()
 {
   phone = $('#phone').val();
-  name = $('#name').val()
+  name = $('#name').val();
   $.ajax({
     type: 'POST',
     url: '../hundler.php',
-    data: 'result_f=1&name=' + name + '&phone=' = phone,
+    data: 'result_f=1&name=' + name + '&phone=' + phone,
     success: function(data){
       alert(data);
     }
