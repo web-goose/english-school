@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Myriad";
+    src: url("../fonts/Myriad\ Pro\ SemiExtended.otf") format("opentype");
+}
+h1 {
+    font-family: "Myriad";
+    font-weight: bold;
+    font-size: 36px;
+    padding: 0.7rem 0;
+    color: #f7cb36;
+}
+h2 {
+    font-family: "Myriad";
+    font-size: 30px;
+    padding: 0.5rem 0;
+}
+h3 {
+    font-family: "Myriad";
+    font-weight: bold;
+    font-size: 24px;
+    padding: 0.4rem 0;
+    color: #f7cb36;
+}
+hr {
+    width: 100%;
+    height: 0.1rem;
+    background-color: #f7cb36;
+    border-radius: 2rem;
+}
+body {
+    color: #fff;
+    font-family: "Myriad";
+}
+.logo p {
+    text-transform: uppercase;
+    margin-top: -0.5rem;
+    font-size: 25px;
+}
+ul {
+    margin: 1rem 0;
+}
+ul li {
+    margin: 0.5rem 0;
+    font-size: 18px;
+}
+.icon img {
+    height: 60px;
+    width: 60px;
+    overflow: hidden;
+}
+main {
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.block {
+    background-color: #10121191;
+    height: auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+@keyframes blick {
+    0% {
+      left: -30px;
+      margin-left: 0px;
+    }
+    30% {
+      left: 110%;
+      margin-left: 80px;
+    }
+    100% {
+      left: 110%;
+      margin-left: 80px;
+    }
+  }
+  
+.btn-1:after {
+      content: "";
+      display: block;
+      width: 30px;
+      height: 300px;
+      margin-left: 60px;
+      background: #fff;
+      position: absolute;
+      left: -40px;
+      top: -150px;
+      z-index: 1;
+      transform: rotate(45deg);
+      transition: all 0.1s;
+      animation-name: blick;
+      animation-duration: 3s;
+      animation-delay: 0.05s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+  }
