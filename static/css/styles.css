@@ -2,24 +2,32 @@
     font-family: "Myriad";
     src: url("../fonts/Myriad\ Pro\ SemiExtended.otf") format("opentype");
 }
+body {
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100vh;
+}
 h1 {
     font-family: "Myriad";
     font-weight: bold;
     font-size: 36px;
     padding: 0.7rem 0;
     color: #f7cb36;
+    text-transform: uppercase;
 }
 h2 {
     font-family: "Myriad";
     font-size: 30px;
     padding: 0.5rem 0;
+    text-transform: uppercase;
 }
 h3 {
     font-family: "Myriad";
     font-weight: bold;
     font-size: 24px;
     padding: 0.4rem 0;
-    color: #f7cb36;
+    text-transform: uppercase;
 }
 hr {
     width: 100%;
@@ -49,14 +57,10 @@ ul li {
     overflow: hidden;
 }
 main {
-    background-image: url("../img/bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
 }
 .block {
     background-color: #10121191;
