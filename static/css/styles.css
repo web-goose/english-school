@@ -6,7 +6,6 @@ body {
     background-image: url("../img/bg.jpg");
     background-repeat: no-repeat;
     background-size: auto;
-    height: 100vh;
 }
 h1 {
     font-family: "Myriad";
@@ -44,6 +43,12 @@ body {
     margin-top: -0.5rem;
     font-size: 25px;
 }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
 ul {
     margin: 1rem 0;
 }
@@ -57,7 +62,8 @@ ul li {
     overflow: hidden;
 }
 main {
-    height: auto;
+    min-height: 100%;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;  
