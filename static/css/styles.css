@@ -3,9 +3,7 @@
     src: url("../fonts/Myriad\ Pro\ SemiExtended.otf") format("opentype");
 }
 body {
-    background-image: url("../img/bg.jpg");
-    background-repeat: no-repeat;
-    background-size: auto;
+    
 }
 h1 {
     font-family: "Myriad";
@@ -35,13 +33,13 @@ hr {
     border-radius: 2rem;
 }
 body {
-    color: #fff;
+    color: #000;
     font-family: "Myriad";
 }
 .logo p {
     text-transform: uppercase;
     margin-top: -0.5rem;
-    font-size: 25px;
+    font-size: 18px;
 }
 .container {
     display: flex;
@@ -56,9 +54,13 @@ ul li {
     margin: 0.5rem 0;
     font-size: 18px;
 }
+ul li i {
+    font-size: 3rem;
+    margin-right: 2rem;
+}
 .icon img {
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
     overflow: hidden;
 }
 main {
@@ -69,7 +71,8 @@ main {
     align-items: center;  
 }
 .block {
-    background-color: #10121191;
+    /* background-color: #10121191; */
+    background-color: rgba(255, 255, 255, 0.137);
     height: auto;
     padding: 2rem;
     border-radius: 0;
@@ -81,8 +84,10 @@ main {
 }
 button {
     background-color: #f7cb36;
+    font-size: 25px;
     border-radius: 1rem;
-    padding: 0.7rem 1.2rem;
+    padding: 0.9rem 1.5rem;
+    margin: 0 1.5rem;
     border: none;
     transition: 0.1s linear;
     text-transform: uppercase;
