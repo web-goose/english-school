@@ -30,7 +30,10 @@ hr {
     border-radius: 2rem;
 }
 body {
-    color: #000;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: #fff;
     font-family: "Myriad";
 }
 .logo p {
@@ -68,6 +71,7 @@ main {
     align-items: center;  
 }
 .block {
+    background-color: #10121191;
     height: auto;
     padding: 2rem;
     border-radius: 0;
